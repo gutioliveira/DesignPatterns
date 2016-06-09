@@ -1,3 +1,4 @@
+package loja;
 
 public class PagamentoCartao implements PagamentoCommand {
 

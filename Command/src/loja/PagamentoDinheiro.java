@@ -1,4 +1,4 @@
-
+package loja;
 public class PagamentoDinheiro implements PagamentoCommand {
 
 	@Override
