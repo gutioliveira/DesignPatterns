@@ -5,7 +5,8 @@ public class App {
 		
 		Pizza pizza = new PizzaDoce();
 		
-		pizza = new Queijo(new Calabresa(pizza));
+		pizza = new Queijo(pizza);
+		pizza = new Calabresa(pizza);
 		
 		System.out.println(pizza.getDescription() + " = " + pizza.getCost());
 		
